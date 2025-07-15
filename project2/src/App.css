@@ -1,0 +1,38 @@
+.card{
+  width: 150px;
+  border: 1px solid;
+}
+
+.card img{
+  width: 100px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  
+}
+
+.products > * {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid;
+  z-index: 10;
+  background: #789;
+  padding: 1em;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #333;
+}
+
+.cart-item{
+  display: flex;
+  color: #eee;
+  gap: 1em;
+}
